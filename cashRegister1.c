@@ -1,8 +1,8 @@
 //==============================================
-// Name:           Full name here
-// Student Number: #########
-// Email:          userID@myseneca.ca
-// Section:        XXX
+// Name:           Pham Huynh Phuong Nghi
+// Student Number: 101412203
+// Email:          hpnpham@myseneca.ca
+// Section:        NOO
 // Workshop:       2 (in-lab)
 //==============================================
 
