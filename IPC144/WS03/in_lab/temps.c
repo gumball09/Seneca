@@ -28,8 +28,10 @@ int main(void)
 			printf("Enter the low value for day %d: ", day+1);
 			scanf("%d", &lowtemp);
 			printf("\n");
-			if (hightemp < lowtemp || hightemp > 40 || lowtemp < -40)
+			
+			if (hightemp < lowtemp || hightemp > 40 || lowtemp < -40) { 
 				printf("Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n\n");
+			}
 		} while (hightemp < lowtemp || hightemp > 40 || lowtemp < -40);
 		
 		totalhigh += hightemp;
@@ -38,5 +40,5 @@ int main(void)
 	
 	printf("The average (mean) temperature was: %.2lf\n", (totalhigh + totallow) / (NUMS * 2.0));
 
-		return 0;
+	return 0;
 }
