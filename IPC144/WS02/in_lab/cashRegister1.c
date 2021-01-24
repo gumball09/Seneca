@@ -1,8 +1,8 @@
 //==============================================
-// Name:           Full name here
-// Student Number: #########
-// Email:          userID@myseneca.ca
-// Section:        XXX
+// Name:           Pham Huynh Phuong Nghi
+// Student Number: ###
+// Email:          ###@myseneca.ca
+// Section:        ###
 // Workshop:       2 (in-lab)
 //==============================================
 
