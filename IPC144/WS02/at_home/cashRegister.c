@@ -46,7 +46,7 @@ int main(void)
 	remaining %= 10; //Update remainder
 	printf("Dimes required: %d, balance owing $%.2lf\n", coins, (double)remaining / 100);
 
-	// Nickes: divided by 5
+	// Nickels: divided by 5
 	coins = remaining / 5; // Number of nickels
 	remaining %= 5; // Update remainder
 	printf("Nickels required: %d, balance owing $%.2lf\n", coins, (double)remaining / 100);
