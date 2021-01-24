@@ -1,8 +1,8 @@
 //==============================================
 // Name:           Pham Huynh Phuong Nghi
-// Student Number: 101402213
-// Email:          hpnpham@myseneca.ca
-// Section:        NOO
+// Student Number: ###
+// Email:          ###@myseneca.ca
+// Section:        ###
 // Workshop:       3 (at-home)
 //==============================================
 
@@ -30,8 +30,9 @@ int main(void)
 			scanf("%d", &lowtemp);
 			printf("\n");
 
-			if (hightemp < lowtemp || hightemp > 40 || lowtemp < -40)
+			if (hightemp < lowtemp || hightemp > 40 || lowtemp < -40) {
 				printf("Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n\n");
+			}
 
 		} while (hightemp < lowtemp || hightemp > 40 || lowtemp < -40);
 
