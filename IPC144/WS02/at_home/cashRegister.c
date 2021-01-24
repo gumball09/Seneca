@@ -8,8 +8,6 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-// New method //
-
 #include <stdio.h>
 int main(void)
 {
