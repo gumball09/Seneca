@@ -11,17 +11,16 @@
 
 int main(void)
 {
-	double amountOwing, totalDue;
-	float GST;
+	double amountOwing, totalDue, gst; 
 	int intDue, loonies, quarters, dimes, nickels, pennies;
 
 	printf("Please enter the amount to be paid: $");
 	scanf("%lf", &amountOwing);
 
-	GST = amountOwing * .13 + .005;
-	printf("GST: %.2f\n", GST);
+	gst = amountOwing * .13 + .005;
+	printf("GST: %.2f\n", (float)gst);
 
-	totalDue = amountOwing + GST;
+	totalDue = amountOwing + gst;
 	printf("Balance owing: $%.2lf\n", totalDue);
 
 	intDue = (totalDue * 100) + 0.5;
